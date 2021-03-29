@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
 .white-nav {
     display: inline-flex;
     justify-content: space-between;
@@ -53,6 +55,10 @@
     width: 100%;
 }
 
+.black-nav-right {
+    margin-right: 10px;
+}
+
 a.black-nav-link {
     color: #555;
     text-decoration: none;
@@ -86,7 +92,8 @@ ul.social-links {
 }
 
 .logo {
-    width: 100px;
+    width: 40%;
+    margin: 20px 0 0 20px;
 }
 
 li.social-link {
@@ -146,13 +153,29 @@ img.corp-logo2 {
     width: 25px;
 }
 
+.hl-title {
+    font-family: 'Dela Gothic One', cursive;
+    color: white;
+    font-size: 20px;
+}
+
+.main-hl {
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+.hl-detail {
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
+
 .left-hl {
     width: 55vw;
     height: 30vw;
     grid-area: hl1;
-    background: red;
+    background: -webkit-linear-gradient(top, orange 0%,red 100%);
+    opacity: 0.25;
     background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal.jpg);
-    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal.jpg), linear-gradient(to bottom right, red, orange, black);
     background-size: cover;
 }
 
