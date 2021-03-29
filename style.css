@@ -8,9 +8,71 @@ a.black-nav-link {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.social-link {
-     background-color: #333;
+.media-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #333;
+}
+
+.corp-data {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    background-color: black;
+    color: white;
+}
+
+ul.social-links {
+    list-style-type: none;
+     display: inline-flex;
      padding: 2px;
+}
+
+li.social-link {
+    padding: 10px;
+    margin: 0 10px 0 10px;
+    border: 2px solid #555;
+    background-color: #555;
+    border-radius: 50%;
+}
+
+li.social-link:hover {
+    background-color: #333;
+}
+
+ul.foot-links {
+    list-style-type: none;
+    display: inline-flex;
+
+}
+
+li.foot-link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin: 10px 5px 10px 5px;
+    color: #aaa;
+}
+
+li.foot-link:hover {
+    color: #fff;
+}
+
+p.copyrt-info {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img.corp-logo {
+    margin: 0 5px 0 5px;
+    width: 40px;
+    height: 15px;
+}
+
+img.corp-logo2 {
+    position: relative;
+    left: 5px;
+    top: 25px;
+    height: 60px;
 }
 
 .small-logo {
@@ -18,16 +80,20 @@ a.black-nav-link {
 }
 
 .left-hl {
-    width: 60%;
+    width: 60vw;
     background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal.jpg);
 }
 
 .topright-hl {
-    width: 40%;
+    width: 40vw;
     background-image: url(https://technocio.com/wp-content/uploads/2021/03/Google.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .bottomright-hl{
-    width: 40%;
+    width: 40vw;
     background-image: url(https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2021%2F01%2FGemini2-duplicates-monitor-alert-e1611566958933.png&signature=f16a0428902b19646bc6f21bf44ce3f4);
 }
+
+
