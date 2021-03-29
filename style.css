@@ -7,3 +7,27 @@ a.black-nav-link {
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.social-link {
+     background-color: #333;
+     padding: 2px;
+}
+
+.small-logo {
+    width: 25px;
+}
+
+.left-hl {
+    width: 60%;
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal.jpg);
+}
+
+.topright-hl {
+    width: 40%;
+    background-image: url(https://technocio.com/wp-content/uploads/2021/03/Google.jpg);
+}
+
+.bottomright-hl{
+    width: 40%;
+    background-image: url(https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2021%2F01%2FGemini2-duplicates-monitor-alert-e1611566958933.png&signature=f16a0428902b19646bc6f21bf44ce3f4);
+}
