@@ -5,6 +5,7 @@
 .navbar {
     position: fixed;
     top: 0;
+    z-index: 30;
 }
 .white-nav {
     display: inline-flex;
@@ -102,7 +103,10 @@ ul.social-links {
 }
 
 .orange-row {
+    display: flex;
     background-color: #f42;
+    height: 15%;
+    align-items: center;
 }
 
 li.social-link {
@@ -124,7 +128,7 @@ ul.foot-links {
 }
 
 li.foot-link {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Cairo', sans-serif;
     font-weight: 600;
     margin: 10px 5px 10px 5px;
     color: #aaa;
@@ -166,17 +170,25 @@ img.corp-logo2 {
 .hl-title {
     font-family: 'Dela Gothic One', cursive;
     color: white;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .main-hl {
     margin-left: 10px;
-    font-size: 30px;
+    font-size: 36px;
 }
 
 .hl-detail {
-    font-family: Arial, Helvetica, sans-serif;
-    color: gray;
+    align-self: flex-end;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-family: Cairo, Helvetica, sans-serif;
+    font-weight: 500;
+    color: #999;
+    position: relative;
+    top: 7%;
+    left: 5%;
 }
 
 .left-hl {
@@ -190,6 +202,16 @@ img.corp-logo2 {
 .left-hl:hover {
     background: linear-gradient(to bottom right, rgba(247, 130, 130, 0.582)0%, rgba(48, 31, 40, 0.82)80%), url('images/image1.jpg'), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal.jpg);
     background-size: cover;
+}
+
+.hl-time{
+    font-size: 14px;
+    font-family: Cairo, Helvetica, sans-serif;
+    font-weight: 500;
+    color: #999;
+    position: relative;
+    bottom: 17%;
+    left: 30%;
 }
 
 .topright-hl {
@@ -236,8 +258,18 @@ img.corp-logo2 {
 }
 
 .card-title {
+    margin-left: 10%;
     font-family: 'Dela Gothic One', cursive;
     color: white;
+}
+
+.card-img {
+    z-index:1;
+    position: relative;
+    top: 32%;
+    left: 3%;
+    width: 4vw;
+    height: 4vw;
 }
 
 .money-funded {
@@ -247,13 +279,48 @@ img.corp-logo2 {
 }
 
 .caption {
+    position: relative;
+    bottom: 40%;
     font-family: 'Cairo', sans-serif;
     font-size: 14px;
     color: #555;
 }
 
-.grey-row{
-    background-color: rgb(245, 188, 170)
+.card-content {
+    height: 38%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(224, 209, 195);
+    font-size: 12px;
+}
+
+.description {
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #f42;
+    color: #555;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.unstyled {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #555;
+    text-decoration: none;
+}
+
+.unstyled:hover {
+    color: #555;
+}
+
+.grey-row {
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+    background-color: rgb(245, 188, 170);
 }
 
 .funding-card {
