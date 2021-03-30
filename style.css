@@ -177,8 +177,12 @@ img.corp-logo2 {
     width: 55vw;
     height: 30vw;
     grid-area: hl1;
-    background: -webkit-linear-gradient(top, orange 0%,red 100%);
-    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal.jpg);
+    background: linear-gradient(to bottom right, rgba(243, 47, 47, 0.582)0%, rgba(24, 3, 15, 0.82)80%), url('images/image1.jpg'), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal.jpg);
+    background-size: cover;
+}
+
+.left-hl:hover {
+    background: linear-gradient(to bottom right, rgba(247, 130, 130, 0.582)0%, rgba(48, 31, 40, 0.82)80%), url('images/image1.jpg'), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal.jpg);
     background-size: cover;
 }
 
@@ -186,7 +190,7 @@ img.corp-logo2 {
     width: 38vw;
     height: 14vw;
     grid-area: hl2;
-    background-image: url(https://technocio.com/wp-content/uploads/2021/03/Google.jpg);
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(48, 7, 38, 0.73)), url(https://technocio.com/wp-content/uploads/2021/03/Google.jpg);
     background-size: cover;
     margin-bottom: 4vh;
 }
@@ -195,6 +199,6 @@ img.corp-logo2 {
     width: 38vw;
     height: 14vw;
     grid-area: hl3;
-    background-image: url(https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2021%2F01%2FGemini2-duplicates-monitor-alert-e1611566958933.png&signature=f16a0428902b19646bc6f21bf44ce3f4);
+    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(48, 7, 38, 0.73)), url(https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2021%2F01%2FGemini2-duplicates-monitor-alert-e1611566958933.png&signature=f16a0428902b19646bc6f21bf44ce3f4);
     background-size: cover;
 }
