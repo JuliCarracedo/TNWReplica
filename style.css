@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
 
-
 .invisible-black-menu {
-    display: none;
+  display: none;
 }
 
 .navbar {
@@ -369,24 +368,22 @@ img.corp-logo2 {
   .navbar {
     width: 100%;
   }
-  
+
   .black-nav {
     display: none;
   }
-  
+
   .invisible-black-menu {
-      display: flex;
-      position: fixed;
-      top: 0;
-      left:0;
-      flex-direction: column;
-      width: 30%;
-      height: 5%;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    flex-direction: column;
+    width: 30%;
+    height: 5%;
   }
 
-  .
-
-  .logo {
+  . .logo {
     display: none;
   }
 
@@ -400,30 +397,32 @@ img.corp-logo2 {
     flex-direction: column;
   }
 
-  .left-hl, .topright-hl, .bottomright-hl {
+  .left-hl,
+  .topright-hl,
+  .bottomright-hl {
     width: 100%;
     height: 35vw;
     margin: 10px 0 10px 0;
   }
 
   .invisible-logo {
-      background-color: black;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      height: 10vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
   }
 
   .inv-logo {
     height: 60%;
   }
 
-  .invisible-grey{
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: 12px;
-      color: #555;
-      background-color: rgba(3, 3, 3, 0.767);
+  .invisible-grey {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #555;
+    background-color: rgba(3, 3, 3, 0.767);
   }
 
   .white-nav-link {
@@ -435,7 +434,7 @@ img.corp-logo2 {
   }
 
   .search-icon {
-    width: 35x;
+    width: 35px;
     height: 35px;
   }
 
@@ -446,12 +445,12 @@ img.corp-logo2 {
   }
 
   .hb-icon {
-      height: 7vh;
+    height: 7vh;
   }
 
   .cards {
-      display: flex;
-      flex-direction: column;
+    display: flex;
+    flex-direction: column;
   }
 
   .funding-card {
@@ -459,7 +458,7 @@ img.corp-logo2 {
     margin: 2vh 0 2vh 0;
     height: 45vh;
   }
-  
+
   .forth-card {
     display: none;
   }
@@ -492,10 +491,10 @@ img.corp-logo2 {
     display: none;
   }
 
-  .corp-data{
-      display: flex;
-      flex-direction: column;
-      align-items: center; 
+  .corp-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .small-logo {
@@ -512,7 +511,7 @@ img.corp-logo2 {
     margin: 1vw;
   }
 
-  .social-links{
-      width: 100%;
+  .social-links {
+    width: 100%;
   }
 }
