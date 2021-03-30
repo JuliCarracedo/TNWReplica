@@ -92,7 +92,8 @@ a.black-nav-link:hover {
 }
 
 .corp-data {
-  display: flex;
+  width: 100%;
+  display: inline-flex;
   justify-content: center;
   align-items: baseline;
   background-color: black;
@@ -375,10 +376,15 @@ img.corp-logo2 {
   
   .invisible-black-menu {
       display: flex;
+      position: fixed;
+      top: 0;
+      left:0;
       flex-direction: column;
-      width: 10%;
+      width: 30%;
       height: 5%;
   }
+
+  .
 
   .logo {
     display: none;
@@ -406,15 +412,18 @@ img.corp-logo2 {
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      height: 10vh;
   }
 
   .inv-logo {
-    width: 15vw;
-    height: 5vw;
+    height: 60%;
   }
 
   .invisible-grey{
-      background-color: rgba(48, 47, 47, 0.616);
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 12px;
+      color: #555;
+      background-color: rgba(3, 3, 3, 0.767);
   }
 
   .white-nav-link {
@@ -432,9 +441,12 @@ img.corp-logo2 {
 
   .hamburger-button {
     display: inline;
-    width: 20px;
-    height: 20px;
+    height: 7vh;
     margin-right: 15vw;
+  }
+
+  .hb-icon {
+      height: 7vh;
   }
 
   .cards {
@@ -480,4 +492,27 @@ img.corp-logo2 {
     display: none;
   }
 
+  .corp-data{
+      display: flex;
+      flex-direction: column;
+      align-items: center; 
+  }
+
+  .small-logo {
+    width: 15px;
+    height: 15px;
+    position: relative;
+    bottom: 3px;
+    right: 3px;
+  }
+
+  .social-link {
+    width: 2vw;
+    height: 2vw;
+    margin: 1vw;
+  }
+
+  .social-links{
+      width: 100%;
+  }
 }
