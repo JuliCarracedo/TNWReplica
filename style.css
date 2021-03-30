@@ -221,7 +221,35 @@ img.corp-logo2 {
 
 .funding {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+}
+
+.cards {
+    display: flex;
+}
+
+.fund-heading {
+    display: block;
+    color: #f42;
+    font-family: 'Dela Gothic One', cursive;
+}
+
+.card-title {
+    font-family: 'Dela Gothic One', cursive;
+    color: white;
+}
+
+.money-funded {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.caption {
+    font-family: 'Cairo', sans-serif;
+    font-size: 14px;
+    color: #555;
 }
 
 .grey-row{
