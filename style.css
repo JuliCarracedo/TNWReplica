@@ -291,7 +291,7 @@ img.corp-logo2 {
     padding: 10px;
     display: flex;
     flex-direction: column;
-    background-color: rgb(224, 209, 195);
+    background-color: rgba(224, 209, 195, 0.349);
     font-size: 12px;
 }
 
@@ -320,7 +320,7 @@ img.corp-logo2 {
     flex-direction: column;
     align-items: center;
     justify-content:space-around;
-    background-color: rgb(245, 188, 170);
+    background-color: rgba(245, 188, 170, 0.404);
 }
 
 .funding-card {
