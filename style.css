@@ -1,348 +1,393 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
 
 @media only screen and (max-width: 480px) {
-    .white-nav-link{
-        display: none;
-    }
-    
-    .forth-card {
-        display: none;
-    }
-    
-    .cards {
-        flex-direction: column;
-        align-items: center;
-    }
+  .invisible-black-menu {
+      display: flex;
+      width: 10%;
+      height: 10%;
+  }
 
-    .funding-card {
-        width: 100%;
-    }
+  .highlights {
+      grid-template-areas: 
+      "hl1"
+      "hl2"
+      "hl3";
+  }
+
+  .invisible-logo {
+      background-color: black;
+  }
+
+  .invisible-grey{
+      background-color: rgba(48, 47, 47, 0.616);
+  }
+
+  .white-nav-link {
+    display: none;
+  }
+
+  .forth-card {
+    display: none;
+  }
+
+  .funding {
+    width: 100vw;
+  }
+
+  .cards {
+      display: flex;
+  }
+}
+
+.invisible-black-menu {
+    display: none;
 }
 
 .navbar {
-    position: fixed;
-    top: 0;
-    z-index: 30;
+  position: fixed;
+  top: 0;
+  z-index: 30;
 }
+
 .white-nav {
-    display: inline-flex;
-    justify-content: space-between;
-    width: 100%;
-    background-color: white;
+  display: inline-flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: white;
 }
 
 .white-nav-link {
-    text-decoration: none;
-    font-family: 'Cairo', sans-serif;
-    margin: 25px 10px 25px 10px;
-    color: #777;
+  text-decoration: none;
+  font-family: 'Cairo', sans-serif;
+  margin: 25px 10px 25px 10px;
+  color: #777;
 }
 
 .white-nav-link:hover {
-    color: black;
+  color: black;
 }
 
 .yellow-nav {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    height: 5vh;
-    background-color: rgb(224, 240, 6);
-    font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 5vh;
+  background-color: rgb(224, 240, 6);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .yellow-nav-link {
-    margin-left: 10px;
-    font-size: 12px;
-    color: black;
-    text-decoration: none;
+  margin-left: 10px;
+  font-size: 12px;
+  color: black;
+  text-decoration: none;
 }
 
 .search-div {
-    padding: 5px;
-    border-left-width: 1px;
-    border-left-style: solid;
-    border-left-color: #777;
-
+  padding: 5px;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #777;
 }
 
 .search-icon {
-    height: 18px;
-    transform: scaleX(-1);
+  height: 18px;
+  transform: scaleX(-1);
 }
 
-.black-nav{
-    display: inline-flex;
-    background-color: black;
-    justify-content: space-between;
-    width: 100%;
+.black-nav {
+  display: inline-flex;
+  background-color: black;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .black-nav-right {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
 a.black-nav-link {
-    color: #555;
-    text-decoration: none;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0 0 0 10px;
+  color: #555;
+  text-decoration: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0 0 0 10px;
 }
 
 a.black-nav-link:hover {
-    color: white;
+  color: white;
 }
 
 .media-links {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #333;
 }
 
 .corp-data {
-    display: flex;
-    justify-content: center;
-    align-items: baseline;
-    background-color: black;
-    color: white;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  background-color: black;
+  color: white;
 }
 
 ul.social-links {
-    list-style-type: none;
-     display: inline-flex;
-     padding: 2px;
+  list-style-type: none;
+  display: inline-flex;
+  padding: 2px;
 }
 
 .logo {
-    width: 40%;
-    margin: 20px 0 0 20px;
+  width: 40%;
+  margin: 20px 0 0 20px;
+}
+
+.funding-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.funding-link {
+  padding: 5px;
+  text-decoration: none;
+  color: #f42;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.funding-link:hover {
+  color: black;
 }
 
 .orange-row {
-    display: flex;
-    background-color: #f42;
-    height: 15%;
-    align-items: center;
+  display: flex;
+  background-color: #f42;
+  height: 15%;
+  align-items: center;
 }
 
 li.social-link {
-    padding: 10px;
-    margin: 0 10px 0 10px;
-    border: 2px solid #555;
-    background-color: #555;
-    border-radius: 50%;
+  padding: 10px;
+  margin: 0 10px 0 10px;
+  border: 2px solid #555;
+  background-color: #555;
+  border-radius: 50%;
 }
 
 li.social-link:hover {
-    background-color: #333;
+  background-color: #333;
 }
 
 ul.foot-links {
-    list-style-type: none;
-    display: inline-flex;
-
+  list-style-type: none;
+  display: inline-flex;
 }
 
 li.foot-link {
-    font-family: 'Cairo', sans-serif;
-    font-weight: 600;
-    margin: 10px 5px 10px 5px;
-    color: #aaa;
+  font-family: 'Cairo', sans-serif;
+  font-weight: 600;
+  margin: 10px 5px 10px 5px;
+  color: #aaa;
 }
 
 li.foot-link:hover {
-    color: #fff;
+  color: #fff;
 }
 
 p.copyrt-info {
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 img.corp-logo {
-    margin: 0 5px 0 5px;
-    width: 40px;
-    height: 15px;
+  margin: 0 5px 0 5px;
+  width: 40px;
+  height: 15px;
 }
 
 img.corp-logo2 {
-    position: relative;
-    left: 5px;
-    top: 25px;
-    height: 60px;
+  position: relative;
+  left: 5px;
+  top: 25px;
+  height: 60px;
 }
 
 .highlights {
-    display: grid;
-    margin: 14vh 0px 10px 0px;
-    grid-template-areas: 
-      "hl1 hl2"
-      "hl1 hl3";
+  display: grid;
+  margin: 14vh 0 10px 0;
+  grid-template-areas:
+    "hl1 hl2"
+    "hl1 hl3";
 }
 
 .small-logo {
-    width: 25px;
+  width: 25px;
 }
 
 .hl-title {
-    font-family: 'Dela Gothic One', cursive;
-    color: white;
-    font-size: 24px;
+  font-family: 'Dela Gothic One', cursive;
+  color: white;
+  font-size: 24px;
 }
 
 .main-hl {
-    margin-left: 10px;
-    font-size: 36px;
+  margin-left: 10px;
+  font-size: 36px;
 }
 
 .hl-detail {
-    align-self: flex-end;
-    display: flex;
-    align-items: center;
-    font-size: 14px;
-    font-family: Cairo, Helvetica, sans-serif;
-    font-weight: 500;
-    color: #999;
-    position: relative;
-    top: 7%;
-    left: 5%;
+  align-self: flex-end;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-family: Cairo, Helvetica, sans-serif;
+  font-weight: 500;
+  color: #999;
+  position: relative;
+  top: 7%;
+  left: 5%;
 }
 
 .left-hl {
-    width: 55vw;
-    height: 30vw;
-    grid-area: hl1;
-    background: linear-gradient(to bottom right, rgba(243, 47, 47, 0.582)0%, rgba(24, 3, 15, 0.82)80%), url('images/image1.jpg'), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal.jpg);
-    background-size: cover;
+  width: 55vw;
+  height: 30vw;
+  grid-area: hl1;
+  background: linear-gradient(to bottom right, rgba(243, 47, 47, 0.582) 0%, rgba(24, 3, 15, 0.82) 80%), url('images/image1.jpg'), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal.jpg);
+  background-size: cover;
 }
 
 .left-hl:hover {
-    background: linear-gradient(to bottom right, rgba(247, 130, 130, 0.582)0%, rgba(48, 31, 40, 0.82)80%), url('images/image1.jpg'), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal.jpg);
-    background-size: cover;
+  background: linear-gradient(to bottom right, rgba(247, 130, 130, 0.582) 0%, rgba(48, 31, 40, 0.82) 80%), url('images/image1.jpg'), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal.jpg);
+  background-size: cover;
 }
 
-.hl-time{
-    font-size: 14px;
-    font-family: Cairo, Helvetica, sans-serif;
-    font-weight: 500;
-    color: #999;
-    position: relative;
-    bottom: 17%;
-    left: 30%;
+.hl-time {
+  font-size: 14px;
+  font-family: Cairo, Helvetica, sans-serif;
+  font-weight: 500;
+  color: #999;
+  position: relative;
+  bottom: 17%;
+  left: 30%;
 }
 
 .topright-hl {
-    width: 38vw;
-    height: 14vw;
-    grid-area: hl2;
-    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(48, 7, 38, 0.73)), url(https://technocio.com/wp-content/uploads/2021/03/Google.jpg);
-    background-size: cover;
-    margin-bottom: 4vh;
+  width: 38vw;
+  height: 14vw;
+  grid-area: hl2;
+  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(48, 7, 38, 0.73)), url(https://technocio.com/wp-content/uploads/2021/03/Google.jpg);
+  background-size: cover;
+  margin-bottom: 4vh;
 }
 
 .topright-hl:hover {
-    background: linear-gradient(to bottom, rgba(245, 246, 252, 0.733)0%, rgba(95, 73, 85, 0.5)80%), url('images/image1.jpg'), url(https://technocio.com/wp-content/uploads/2021/03/Google.jpg);
-    background-size: cover;
+  background: linear-gradient(to bottom, rgba(245, 246, 252, 0.733) 0%, rgba(95, 73, 85, 0.5) 80%), url('images/image1.jpg'), url(https://technocio.com/wp-content/uploads/2021/03/Google.jpg);
+  background-size: cover;
 }
 
-.bottomright-hl{
-    width: 38vw;
-    height: 14vw;
-    grid-area: hl3;
-    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(48, 7, 38, 0.73)), url(https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2021%2F01%2FGemini2-duplicates-monitor-alert-e1611566958933.png&signature=f16a0428902b19646bc6f21bf44ce3f4);
-    background-size: cover;
+.bottomright-hl {
+  width: 38vw;
+  height: 14vw;
+  grid-area: hl3;
+  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(48, 7, 38, 0.73)), url(https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2021%2F01%2FGemini2-duplicates-monitor-alert-e1611566958933.png&signature=f16a0428902b19646bc6f21bf44ce3f4);
+  background-size: cover;
 }
 
 .bottomright-hl:hover {
-    background: linear-gradient(to bottom, rgba(245, 246, 252, 0.733)0%, rgba(95, 73, 85, 0.5)80%), url('images/image1.jpg'), url(https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2021%2F01%2FGemini2-duplicates-monitor-alert-e1611566958933.png&signature=f16a0428902b19646bc6f21bf44ce3f4);
-    background-size: cover;
+  background: linear-gradient(to bottom, rgba(245, 246, 252, 0.733) 0%, rgba(95, 73, 85, 0.5) 80%), url('images/image1.jpg'), url(https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2021%2F01%2FGemini2-duplicates-monitor-alert-e1611566958933.png&signature=f16a0428902b19646bc6f21bf44ce3f4);
+  background-size: cover;
 }
 
 .funding {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .cards {
-    display: flex;
+  display: flex;
 }
 
 .fund-heading {
-    display: block;
-    color: #f42;
-    font-family: 'Dela Gothic One', cursive;
+  display: block;
+  color: #f42;
+  font-family: 'Dela Gothic One', cursive;
+  text-decoration: none;
+}
+
+.fund-heading:hover {
+  color: black;
 }
 
 .card-title {
-    margin-left: 10%;
-    font-family: 'Dela Gothic One', cursive;
-    color: white;
+  margin-left: 10%;
+  font-family: 'Dela Gothic One', cursive;
+  color: white;
 }
 
 .card-img {
-    z-index:1;
-    position: relative;
-    top: 32%;
-    left: 3%;
-    width: 4vw;
-    height: 4vw;
+  z-index: 1;
+  position: relative;
+  top: 32%;
+  left: 3%;
+  width: 4vw;
+  height: 4vw;
 }
 
 .money-funded {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .caption {
-    position: relative;
-    bottom: 40%;
-    font-family: 'Cairo', sans-serif;
-    font-size: 14px;
-    color: #555;
+  position: relative;
+  bottom: 40%;
+  font-family: 'Cairo', sans-serif;
+  font-size: 14px;
+  color: #555;
 }
 
 .card-content {
-    height: 38%;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    background-color: rgba(224, 209, 195, 0.349);
-    font-size: 12px;
+  height: 38%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(224, 209, 195, 0.349);
+  font-size: 12px;
 }
 
 .description {
-    border-top-width: 1px;
-    border-top-style: solid;
-    border-top-color: #f42;
-    color: #555;
-    font-size: 10px;
-    font-family: Arial, Helvetica, sans-serif;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #f42;
+  color: #555;
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .unstyled {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #555;
-    text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #555;
+  text-decoration: none;
 }
 
 .unstyled:hover {
-    color: #555;
+  color: #555;
 }
 
 .grey-row {
-    height: 25%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content:space-around;
-    background-color: rgba(245, 188, 170, 0.404);
+  height: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgba(245, 188, 170, 0.404);
 }
 
 .funding-card {
-    margin: 0 15px 0 15px;
-    width: 20vw;
+  margin: 0 15px 0 15px;
+  width: 20vw;
 }
