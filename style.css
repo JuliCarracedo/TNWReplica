@@ -2,10 +2,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
 
+.navbar {
+    position: fixed;
+    top: 0;
+}
 .white-nav {
     display: inline-flex;
     justify-content: space-between;
     width: 100%;
+    background-color: white;
 }
 
 .white-nav-link {
@@ -148,6 +153,7 @@ img.corp-logo2 {
 
 .highlights {
     display: grid;
+    margin: 14vh 0px 10px 0px;
     grid-template-areas: 
       "hl1 hl2"
       "hl1 hl3";
@@ -195,10 +201,34 @@ img.corp-logo2 {
     margin-bottom: 4vh;
 }
 
+.topright-hl:hover {
+    background: linear-gradient(to bottom, rgba(245, 246, 252, 0.733)0%, rgba(95, 73, 85, 0.5)80%), url('images/image1.jpg'), url(https://technocio.com/wp-content/uploads/2021/03/Google.jpg);
+    background-size: cover;
+}
+
 .bottomright-hl{
     width: 38vw;
     height: 14vw;
     grid-area: hl3;
     background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(48, 7, 38, 0.73)), url(https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2021%2F01%2FGemini2-duplicates-monitor-alert-e1611566958933.png&signature=f16a0428902b19646bc6f21bf44ce3f4);
     background-size: cover;
+}
+
+.bottomright-hl:hover {
+    background: linear-gradient(to bottom, rgba(245, 246, 252, 0.733)0%, rgba(95, 73, 85, 0.5)80%), url('images/image1.jpg'), url(https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2021%2F01%2FGemini2-duplicates-monitor-alert-e1611566958933.png&signature=f16a0428902b19646bc6f21bf44ce3f4);
+    background-size: cover;
+}
+
+.funding {
+    display: flex;
+    justify-content: center;
+}
+
+.grey-row{
+    background-color: rgb(245, 188, 170)
+}
+
+.funding-card {
+    margin: 0 15px 0 15px;
+    width: 20vw;
 }
