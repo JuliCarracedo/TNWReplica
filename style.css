@@ -83,6 +83,10 @@ a.black-nav-link:hover {
   color: white;
 }
 
+footer.site-footer {
+  width: 100%;
+}
+
 .media-links {
   display: flex;
   flex-direction: column;
@@ -218,7 +222,7 @@ img.corp-logo2 {
   font-weight: 500;
   color: #999;
   position: relative;
-  top: 7%;
+  bottom: 5%;
   left: 5%;
 }
 
@@ -241,8 +245,8 @@ img.corp-logo2 {
   font-weight: 500;
   color: #999;
   position: relative;
-  bottom: 17%;
-  left: 30%;
+  bottom: 20%;
+  left: 75%;
 }
 
 .topright-hl {
