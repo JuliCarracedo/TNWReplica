@@ -1,44 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
 
-@media only screen and (max-width: 480px) {
-  .invisible-black-menu {
-      display: flex;
-      width: 10%;
-      height: 10%;
-  }
-
-  .highlights {
-      grid-template-areas: 
-      "hl1"
-      "hl2"
-      "hl3";
-  }
-
-  .invisible-logo {
-      background-color: black;
-  }
-
-  .invisible-grey{
-      background-color: rgba(48, 47, 47, 0.616);
-  }
-
-  .white-nav-link {
-    display: none;
-  }
-
-  .forth-card {
-    display: none;
-  }
-
-  .funding {
-    width: 100vw;
-  }
-
-  .cards {
-      display: flex;
-  }
-}
 
 .invisible-black-menu {
     display: none;
@@ -94,6 +56,10 @@
 .search-icon {
   height: 18px;
   transform: scaleX(-1);
+}
+
+.hamburger-button {
+  display: none;
 }
 
 .black-nav {
@@ -160,6 +126,12 @@ ul.social-links {
 
 .funding-link:hover {
   color: black;
+}
+
+.flinkbor {
+  border-left-color: #f42;
+  border-left-style: solid;
+  border-left-width: 1px;
 }
 
 .orange-row {
@@ -390,4 +362,122 @@ img.corp-logo2 {
 .funding-card {
   margin: 0 15px 0 15px;
   width: 20vw;
+}
+
+@media only screen and (max-width: 480px) {
+  .navbar {
+    width: 100%;
+  }
+  
+  .black-nav {
+    display: none;
+  }
+  
+  .invisible-black-menu {
+      display: flex;
+      flex-direction: column;
+      width: 10%;
+      height: 5%;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .main-hl {
+    font-size: 24px;
+  }
+
+  .highlights {
+    margin-top: 20vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .left-hl, .topright-hl, .bottomright-hl {
+    width: 100%;
+    height: 35vw;
+    margin: 10px 0 10px 0;
+  }
+
+  .invisible-logo {
+      background-color: black;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .inv-logo {
+    width: 15vw;
+    height: 5vw;
+  }
+
+  .invisible-grey{
+      background-color: rgba(48, 47, 47, 0.616);
+  }
+
+  .white-nav-link {
+    display: none;
+  }
+
+  .search-div {
+    margin-left: 50vw;
+  }
+
+  .search-icon {
+    width: 35x;
+    height: 35px;
+  }
+
+  .hamburger-button {
+    display: inline;
+    width: 20px;
+    height: 20px;
+    margin-right: 15vw;
+  }
+
+  .cards {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .funding-card {
+    width: 100%;
+    margin: 2vh 0 2vh 0;
+    height: 45vh;
+  }
+  
+  .forth-card {
+    display: none;
+  }
+
+  .card-img {
+    width: 10vw;
+    height: 10vw;
+  }
+
+  .funding-links {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .funding-link {
+    border: none;
+  }
+
+  .funding-header {
+    flex-direction: column;
+    align-items: baseline;
+  }
+
+  .hl-detail {
+    position: relative;
+    top: -20%;
+  }
+
+  .hl-time {
+    display: none;
+  }
+
 }
