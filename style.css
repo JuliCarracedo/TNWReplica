@@ -96,6 +96,10 @@ ul.social-links {
     margin: 20px 0 0 20px;
 }
 
+.orange-row {
+    background-color: #f42;
+}
+
 li.social-link {
     padding: 10px;
     margin: 0 10px 0 10px;
@@ -174,7 +178,6 @@ img.corp-logo2 {
     height: 30vw;
     grid-area: hl1;
     background: -webkit-linear-gradient(top, orange 0%,red 100%);
-    opacity: 0.25;
     background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal.jpg);
     background-size: cover;
 }
