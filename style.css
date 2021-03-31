@@ -1,0 +1,671 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  width: 100%;
+}
+
+.invisible-black-menu {
+  display: none;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  z-index: 30;
+}
+
+.white-nav {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: white;
+}
+
+.white-nav-link {
+  text-decoration: none;
+  font-family: 'Cairo', sans-serif;
+  margin: 25px 10px 25px 10px;
+  color: #777;
+}
+
+.white-nav-link:hover {
+  color: black;
+}
+
+.yellow-nav {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 5vh;
+  background-color: rgb(224, 240, 6);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.yellow-nav-link {
+  margin-left: 10px;
+  font-size: 12px;
+  color: black;
+  text-decoration: none;
+}
+
+.search-div {
+  padding: 5px;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #777;
+}
+
+.search-icon {
+  height: 18px;
+  transform: scaleX(-1);
+}
+
+.hamburger-button {
+  display: none;
+}
+
+.black-nav {
+  display: inline-flex;
+  background-color: #111;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.black-nav-right {
+  margin-right: 10px;
+}
+
+a.black-nav-link {
+  color: #555;
+  text-decoration: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0 0 0 10px;
+}
+
+a.black-nav-link:hover {
+  color: white;
+}
+
+footer.site-footer {
+  width: 100%;
+}
+
+.media-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #333;
+}
+
+.corp-data {
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: baseline;
+  background-color: black;
+  color: white;
+}
+
+ul.social-links {
+  list-style-type: none;
+  display: inline-flex;
+  justify-content: center;
+  padding: 2px;
+}
+
+.logo {
+  width: 60%;
+  margin: 20px 0 0 20px;
+  grid-column: 1/3;
+  grid-row: 1/3;
+}
+
+.funding-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.funding-link {
+  padding: 5px;
+  text-decoration: none;
+  color: #f42;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.funding-link:hover {
+  color: black;
+}
+
+.flinkbor {
+  border-left-color: #f42;
+  border-left-style: solid;
+  border-left-width: 1px;
+}
+
+.orange-row {
+  display: flex;
+  background-color: #f42;
+  height: 15%;
+  align-items: center;
+}
+
+li.social-link {
+  padding: 10px;
+  margin: 0 10px 0 10px;
+  border: 2px solid #555;
+  background-color: #555;
+  border-radius: 50%;
+}
+
+li.social-link:hover {
+  background-color: #333;
+}
+
+ul.foot-links {
+  list-style-type: none;
+  display: inline-flex;
+}
+
+li.foot-link {
+  font-family: 'Cairo', sans-serif;
+  font-weight: 600;
+  margin: 10px 5px 10px 5px;
+  color: #aaa;
+}
+
+li.foot-link:hover {
+  color: #fff;
+}
+
+p.copyrt-info {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img.corp-logo {
+  margin: 0 5px 0 5px;
+  width: 40px;
+  height: 15px;
+}
+
+img.corp-logo2 {
+  position: relative;
+  left: 5px;
+  top: 25px;
+  height: 60px;
+}
+
+.highlights {
+  display: grid;
+  margin: 14vh 0 10px 0;
+  grid-template-areas:
+    "hl1 hl2"
+    "hl1 hl3";
+  gap: 10px;
+}
+
+.small-logo {
+  width: 25px;
+}
+
+.hl-title {
+  font-family: 'Dela Gothic One', cursive;
+  color: white;
+  margin-left: 10px;
+  font-size: 25px;
+  grid-column: 1/4;
+  grid-row: 1/3;
+}
+
+.main-hl {
+  font-family: 'Dela Gothic One', cursive;
+  color: white;
+  margin-left: 10px;
+  font-size: 40px;
+  grid-column: 1/4;
+  grid-row: 2/4;
+}
+
+.hl-detail {
+  align-self: flex-end;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  margin-left: 20px;
+  font-family: Cairo, Helvetica, sans-serif;
+  font-weight: 500;
+  color: #999;
+  grid-column: 1/4;
+  grid-row: 4/5;
+}
+
+.left-hl {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 20% 15% 50% 15%;
+  width: 60vw;
+  height: 30.8vw;
+  grid-area: hl1;
+  background: linear-gradient(to bottom right, rgba(243, 47, 47, 0.582) 0%, rgba(24, 3, 15, 0.82) 80%), url('images/image1.jpg'), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal.jpg);
+  background-size: cover;
+}
+
+.left-hl:hover {
+  background: linear-gradient(to bottom right, rgba(247, 130, 130, 0.582) 0%, rgba(48, 31, 40, 0.82) 80%), url('images/image1.jpg'), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal.jpg);
+  background-size: cover;
+}
+
+.hl-time {
+  font-size: 14px;
+  font-family: Cairo, Helvetica, sans-serif;
+  font-weight: 500;
+  margin-left: 30%;
+  color: #999;
+  grid-column: 3/4;
+  grid-row: 1/3;
+}
+
+.topright-hl {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 20% 15% 50% 15%;
+  width: 37vw;
+  height: 15vw;
+  grid-area: hl2;
+  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(48, 7, 38, 0.73)), url(https://technocio.com/wp-content/uploads/2021/03/Google.jpg);
+  background-size: cover;
+}
+
+.topright-hl:hover {
+  background: linear-gradient(to bottom, rgba(245, 246, 252, 0.733) 0%, rgba(95, 73, 85, 0.5) 80%), url('images/image1.jpg'), url(https://technocio.com/wp-content/uploads/2021/03/Google.jpg);
+  background-size: cover;
+}
+
+.bottomright-hl {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 20% 15% 50% 15%;
+  width: 37vw;
+  height: 15vw;
+  grid-area: hl3;
+  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(48, 7, 38, 0.73)), url(https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2021%2F01%2FGemini2-duplicates-monitor-alert-e1611566958933.png&signature=f16a0428902b19646bc6f21bf44ce3f4);
+  background-size: cover;
+}
+
+.bottomright-hl:hover {
+  background: linear-gradient(to bottom, rgba(245, 246, 252, 0.733) 0%, rgba(95, 73, 85, 0.5) 80%), url('images/image1.jpg'), url(https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2021%2F01%2FGemini2-duplicates-monitor-alert-e1611566958933.png&signature=f16a0428902b19646bc6f21bf44ce3f4);
+  background-size: cover;
+}
+
+.funding {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 80vw;
+}
+
+.cards {
+  display: flex;
+}
+
+.fund-heading {
+  display: block;
+  color: #f42;
+  font-family: 'Dela Gothic One', cursive;
+  text-decoration: none;
+}
+
+.fund-heading:hover {
+  color: black;
+}
+
+.card-title {
+  margin-left: 10%;
+  font-family: 'Dela Gothic One', cursive;
+  color: white;
+}
+
+.card-img {
+  z-index: 1;
+  position: relative;
+  top: 32%;
+  left: 3%;
+  width: 4vw;
+  height: 4vw;
+}
+
+.money-funded {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.caption {
+  position: relative;
+  bottom: 40%;
+  font-family: 'Cairo', sans-serif;
+  font-size: 14px;
+  color: #555;
+}
+
+.card-content {
+  height: 38%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(224, 209, 195, 0.349);
+  font-size: 12px;
+}
+
+.description {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #f42;
+  color: #555;
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.unstyled {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #555;
+  text-decoration: none;
+}
+
+.unstyled:hover {
+  color: #555;
+}
+
+.grey-row {
+  height: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgba(245, 188, 170, 0.404);
+}
+
+.funding-card {
+  margin: 0 15px 0 15px;
+  width: 20vw;
+}
+
+@media only screen and (max-width: 1024px) {
+  .black-nav {
+    font-size: 12px;
+    height: 6vh;
+    align-items: center;
+  }
+
+  .black-nav-left {
+    margin-left: 20%;
+  }
+
+  .white-nav {
+    height: 6vh;
+    align-items: center;
+  }
+
+  .white-links {
+    font-size: 12px;
+    margin-left: 20%;
+  }
+
+  .invisible-black-menu {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    flex-direction: column;
+    width: 20%;
+    height: 5%;
+  }
+
+  .invisible-logo {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+  }
+
+  .inv-logo {
+    height: 60%;
+  }
+
+  .invisible-grey {
+    display: none;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .main-hl {
+    font-size: 30px;
+  }
+
+  .hl-time {
+    display: none;
+  }
+
+  .hl-title {
+    font-size: 16px;
+  }
+
+  .left-hl {
+    background: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(48, 7, 38, 0.73)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal.jpg);
+    background-size: cover;
+  }
+
+  .left-hl:hover {
+    background: linear-gradient(to bottom, rgba(245, 246, 252, 0.733) 0%, rgba(95, 73, 85, 0.5) 80%), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal.jpg);
+    background-size: cover;
+  }
+
+  .forth-card {
+    display: none;
+  }
+
+  .funding {
+    width: 98%;
+  }
+
+  .fund-heading {
+    font-size: 20px;
+  }
+
+  .cards {
+    display: flex;
+    justify-content: center;
+  }
+
+  .funding-card {
+    width: 40vw;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    width: 100%;
+  }
+
+  .black-nav {
+    display: none;
+  }
+
+  .invisible-black-menu {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    flex-direction: column;
+    width: 30%;
+    height: 5%;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .main-hl {
+    font-size: 20px;
+  }
+
+  .hl-title {
+    font-size: 20px;
+  }
+
+  .highlights {
+    margin-top: 12vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .left-hl,
+  .topright-hl,
+  .bottomright-hl {
+    width: 100%;
+    height: 35vw;
+    margin: 10px 0 10px 0;
+  }
+
+  .left-hl {
+    background: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(48, 7, 38, 0.73)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal.jpg);
+    background-size: cover;
+  }
+
+  .left-hl:hover {
+    background: linear-gradient(to bottom, rgba(245, 246, 252, 0.733) 0%, rgba(95, 73, 85, 0.5) 80%), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal.jpg);
+    background-size: cover;
+  }
+
+  .invisible-logo {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+  }
+
+  .inv-logo {
+    height: 80%;
+  }
+
+  .invisible-grey {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #555;
+    background-color: rgba(3, 3, 3, 0.767);
+  }
+
+  .white-nav {
+    height: 8vh;
+  }
+
+  .white-nav-link {
+    display: none;
+  }
+
+  .search-btn {
+    display: flex;
+    margin-left: 10vw;
+    margin-right: 1vw;
+  }
+
+  .search-icon {
+    width: 35px;
+    height: 35px;
+  }
+
+  .hamburger-button {
+    display: inline;
+    height: 7vh;
+  }
+
+  .hb-icon {
+    height: 7vh;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .funding {
+    width: 98%;
+  }
+
+  .funding-card {
+    width: 100%;
+    margin: 2vh 0 2vh 0;
+    height: 45vh;
+  }
+
+  .forth-card {
+    display: none;
+  }
+
+  .card-img {
+    width: 10vw;
+    height: 10vw;
+  }
+
+  .funding-links {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .funding-link {
+    border: none;
+  }
+
+  .funding-header {
+    flex-direction: column;
+    align-items: baseline;
+  }
+
+  .hl-detail {
+    position: relative;
+    top: -20%;
+  }
+
+  .hl-time {
+    display: none;
+  }
+
+  .corp-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .small-logo {
+    width: 15px;
+    height: 15px;
+    position: relative;
+    bottom: 3px;
+    right: 3px;
+  }
+
+  .social-link {
+    width: 2vw;
+    height: 2vw;
+    margin: 1vw;
+  }
+
+  .social-links {
+    width: 100%;
+  }
+}
