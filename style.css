@@ -368,7 +368,7 @@ img.corp-logo2 {
   width: 20vw;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width:760px) {
   .navbar {
     width: 100%;
   }
