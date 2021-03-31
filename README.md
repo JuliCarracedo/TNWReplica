@@ -18,6 +18,8 @@ In this project, the home page of the TNW website (thenextweb.com) is cloned and
 ![image](https://user-images.githubusercontent.com/70488620/113200743-b8212000-9236-11eb-87a2-3009d5f60158.png)
 
 ![image](https://user-images.githubusercontent.com/70488620/113200836-d2f39480-9236-11eb-8a68-48ae665eb28f.png)
+## Alive Link to the project:
+['The Next Web' article Replica](https://julicarracedo.github.io/), hosted on GitHub.
 
 ## Built With:
 - HTML (Hypertext Markup Language)
