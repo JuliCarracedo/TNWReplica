@@ -526,7 +526,7 @@ img.corp-logo2 {
   }
 
   .highlights {
-    margin-top: 20vh;
+    margin-top: 12vh;
     display: flex;
     flex-direction: column;
   }
@@ -563,18 +563,25 @@ img.corp-logo2 {
   }
 
   .invisible-grey {
+    display: inline;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     color: #555;
     background-color: rgba(3, 3, 3, 0.767);
   }
 
+  .white-nav {
+    height: 8vh;
+  }
+
   .white-nav-link {
     display: none;
   }
 
-  .search-div {
-    margin-left: 75vw;
+  .search-btn {
+    display: flex;
+    margin-left: 10vw;
+    margin-right: 1vw;
   }
 
   .search-icon {
@@ -585,7 +592,6 @@ img.corp-logo2 {
   .hamburger-button {
     display: inline;
     height: 7vh;
-    margin-right: 15vw;
   }
 
   .hb-icon {
