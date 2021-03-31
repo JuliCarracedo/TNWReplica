@@ -38,5 +38,3 @@ In this project, the home page of the TNW website (thenextweb.com) is cloned and
 ### Yuvraj Manoo
 - Github: @YuvrajM108
 
-## Live Demo:
-### Click on the following link to see a live demo: 
