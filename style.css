@@ -404,7 +404,7 @@ img.corp-logo2 {
     height: 6vh;
     align-items: center;
   }
-  
+
   .black-nav-left {
     margin-left: 20%;
   }
@@ -418,7 +418,7 @@ img.corp-logo2 {
     font-size: 12px;
     margin-left: 20%;
   }
-  
+
   .invisible-black-menu {
     display: flex;
     position: fixed;
@@ -441,7 +441,7 @@ img.corp-logo2 {
   .inv-logo {
     height: 60%;
   }
-  
+
   .invisible-grey {
     display: none;
   }
@@ -449,7 +449,7 @@ img.corp-logo2 {
   .logo {
     display: none;
   }
-  
+
   .main-hl {
     font-size: 30px;
   }
@@ -492,7 +492,6 @@ img.corp-logo2 {
   .funding-card {
     width: 40vw;
   }
-
 }
 
 @media only screen and (max-width: 768px) {
@@ -664,5 +663,3 @@ img.corp-logo2 {
     width: 100%;
   }
 }
-
-
