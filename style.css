@@ -398,6 +398,69 @@ img.corp-logo2 {
   width: 20vw;
 }
 
+.hf-most-popular {
+  height: 40vh;
+  width: 25vw;
+  background-size: cover;
+  background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/1280px-GameStop_Globen-e1611550531323-368x276.jpg");
+}
+
+.apps-most-popular {
+  height: 40vh;
+  width: 25vw;
+  background-size: cover;
+  background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Snag_3c8ecdc-368x276.png");
+}
+
+.gear-most-popular {
+  height: 40vh;
+  width: 25vw;
+  background-size: cover;
+  background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2015/03/MacBook-USB-C-Feat-Img-730x365.jpg");
+}
+
+.tech-most-popular {
+  height: 40vh;
+  width: 25vw;
+  background-size: cover;
+  background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2016/06/vintage-robot-368x276.jpg");
+}
+
+.creative-most-popular {
+  height: 40vh;
+  width: 25vw;
+  background-size: cover;
+  background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/Untitled-design-13-368x276.png");
+}
+
+.podium-most-popular {
+  height: 40vh;
+  width: 25vw;
+  background-size: cover;
+  background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/open-source-code-gq-368x276.png");
+}
+
+.insights-most-popular {
+  height: 40vh;
+  width: 25vw;
+  background-size: cover;
+  background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/zoom-fundraising-gq-368x276.png");
+}
+
+.launch-most-popular {
+  height: 40vh;
+  width: 25vw;
+  background-size: cover;
+  background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/toyota-suv-new-ev-car-future-electric-japan-368x276.jpg");
+}
+
+.distract-most-popular {
+  height: 40vh;
+  width: 25vw;
+  background-size: cover;
+  background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/amplified-368x276.jpg");
+}
+
 @media only screen and (max-width: 1024px) {
   .black-nav {
     font-size: 12px;
