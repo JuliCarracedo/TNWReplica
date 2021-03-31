@@ -73,7 +73,7 @@ header {
 
 .black-nav {
   display: inline-flex;
-  background-color: black;
+  background-color: #111;
   justify-content: space-between;
   width: 100%;
 }
@@ -116,6 +116,7 @@ footer.site-footer {
 ul.social-links {
   list-style-type: none;
   display: inline-flex;
+  justify-content: center;
   padding: 2px;
 }
 
@@ -397,6 +398,103 @@ img.corp-logo2 {
   width: 20vw;
 }
 
+@media only screen and (max-width: 1024px) {
+  .black-nav {
+    font-size: 12px;
+    height: 6vh;
+    align-items: center;
+  }
+  
+  .black-nav-left {
+    margin-left: 20%;
+  }
+
+  .white-nav {
+    height: 6vh;
+    align-items: center;
+  }
+
+  .white-links {
+    font-size: 12px;
+    margin-left: 20%;
+  }
+  
+  .invisible-black-menu {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    flex-direction: column;
+    width: 20%;
+    height: 5%;
+  }
+
+  .invisible-logo {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+  }
+
+  .inv-logo {
+    height: 60%;
+  }
+  
+  .invisible-grey {
+    display: none;
+  }
+
+  .logo {
+    display: none;
+  }
+  
+  .main-hl {
+    font-size: 30px;
+  }
+
+  .hl-time {
+    display: none;
+  }
+
+  .hl-title {
+    font-size: 16px;
+  }
+
+  .left-hl {
+    background: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(48, 7, 38, 0.73)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal.jpg);
+    background-size: cover;
+  }
+
+  .left-hl:hover {
+    background: linear-gradient(to bottom, rgba(245, 246, 252, 0.733) 0%, rgba(95, 73, 85, 0.5) 80%), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal.jpg);
+    background-size: cover;
+  }
+
+  .forth-card {
+    display: none;
+  }
+
+  .funding {
+    width: 98%;
+  }
+
+  .fund-heading {
+    font-size: 20px;
+  }
+
+  .cards {
+    display: flex;
+    justify-content: center;
+  }
+
+  .funding-card {
+    width: 40vw;
+  }
+
+}
+
 @media only screen and (max-width: 768px) {
   .navbar {
     width: 100%;
@@ -566,6 +664,5 @@ img.corp-logo2 {
     width: 100%;
   }
 }
-@media only screen and(max-width: 1024px){
-  
-}
+
+
