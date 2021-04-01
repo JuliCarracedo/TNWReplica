@@ -489,8 +489,18 @@ img.corp-logo2 {
   width: 20vw;
 }
 
+.categories{
+  display: grid;
+  grid-template-areas:
+    "first second third"
+    "fourth fifth sixth"
+    "seventh eighth nineth";
+  width: 80%;
+  gap: 20px;
+}
+
 .hardfork {
-  width: 25vw;
+  grid-area: first;
 }
 
 .pre-title {
@@ -524,9 +534,11 @@ img.corp-logo2 {
 .categories-latest {
   width: 103%;
   background-color: rgba(245, 188, 170, 0.404);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  display: grid;
+  grid-template-areas: 
+    "latest img"
+    "text img"
+  ;
 }
 
 .categories-pre-title {
@@ -534,27 +546,41 @@ img.corp-logo2 {
   font-family: 'Cairo', Helvetica, sans-serif;
   color:#f42;
   font-size: 14px;
-}
-
-.categories-orange {
-  margin-top: -20px;
-  display: flex;
-  justify-content: center;
+  grid-area: latest;
 }
 
 .categories-big-title {
   margin-left: 5%;
-  width: 60%;
+  width: 90%;
   font-family: Arial, Helvetica, sans-serif;
   color: #f42;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 12px;
   word-wrap: break-word;
+  grid-area: text;
+  position: relative;
+  top: -50%;
 }
 
 .categories-thumbnail {
-  width: 40%;
+  width: 100%;
+  grid-area: img;
+  object-fit: cover;
   height: 100%;
+}
+
+.categories-list{
+  color: #f42;
+}
+
+.list-link{
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: #777;
+}
+
+.list-link:hover {
+  color: #333;
 }
 
 .hf-most-popular {
@@ -570,7 +596,7 @@ img.corp-logo2 {
 
 .apps-most-popular {
   height: 40vh;
-  width: 25vw;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -579,9 +605,13 @@ img.corp-logo2 {
   background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.950) 80%), url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Snag_3c8ecdc-368x276.png");
 }
 
+.apps {
+  grid-area: second;
+}
+
 .gear-most-popular {
   height: 40vh;
-  width: 25vw;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -590,9 +620,17 @@ img.corp-logo2 {
   background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.950) 80%), url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2015/03/MacBook-USB-C-Feat-Img-730x365.jpg");
 }
 
+.gear {
+  grid-area: third;
+}
+
+.tech {
+  grid-area: fourth;
+}
+
 .tech-most-popular {
   height: 40vh;
-  width: 25vw;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -601,9 +639,13 @@ img.corp-logo2 {
   background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.950) 80%), url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2016/06/vintage-robot-368x276.jpg");
 }
 
+.creative {
+  grid-area: fifth;
+}
+
 .creative-most-popular {
   height: 40vh;
-  width: 25vw;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -612,9 +654,13 @@ img.corp-logo2 {
   background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.950) 80%), url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/Untitled-design-13-368x276.png");
 }
 
+.podium {
+  grid-area: sixth;
+}
+
 .podium-most-popular {
   height: 40vh;
-  width: 25vw;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -623,9 +669,13 @@ img.corp-logo2 {
   background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.950) 80%), url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/open-source-code-gq-368x276.png");
 }
 
+.insights {
+  grid-area: seventh;
+}
+
 .insights-most-popular {
   height: 40vh;
-  width: 25vw;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -634,9 +684,13 @@ img.corp-logo2 {
   background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.950) 80%), url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/zoom-fundraising-gq-368x276.png");
 }
 
+.launch {
+  grid-area: eighth;
+}
+
 .launch-most-popular {
   height: 40vh;
-  width: 25vw;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -645,9 +699,13 @@ img.corp-logo2 {
   background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.950) 80%), url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/toyota-suv-new-ev-car-future-electric-japan-368x276.jpg");
 }
 
+.distract {
+  grid-area: nineth;
+}
+
 .distract-most-popular {
   height: 40vh;
-  width: 25vw;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
