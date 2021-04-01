@@ -489,7 +489,7 @@ img.corp-logo2 {
   width: 20vw;
 }
 
-.categories{
+.categories {
   display: grid;
   grid-template-areas:
     "first second third"
@@ -560,6 +560,10 @@ img.corp-logo2 {
   grid-area: text;
   position: relative;
   top: -50%;
+}
+
+.deals-figure{
+  margin: 10px;
 }
 
 .categories-thumbnail {
@@ -861,6 +865,16 @@ img.corp-logo2 {
     background-size: cover;
   }
 
+  .latest-container{
+    grid-template-areas: 
+    "first second third"
+    "fourth fifth sixth"
+    "seventh eighth ."
+  ;
+    width: 80%;
+    gap: 20px;
+  }
+
   .forth-card {
     display: none;
   }
@@ -881,6 +895,17 @@ img.corp-logo2 {
   .funding-card {
     width: 40vw;
   }
+
+  .categories {
+    grid-template-areas:
+    "first second"
+    "third fourth"
+    "fifth sixth"
+    "seventh eighth"
+    "nineth .";
+    width: 90%;
+  }
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -987,6 +1012,38 @@ img.corp-logo2 {
     height: 7vh;
   }
 
+  .latest-section {
+    width: 95%;
+  }
+
+  .latest-container {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+  }
+
+  .latest-caption {
+    width: 100%;
+    margin-left: 5px;
+  }
+
+  .latest-link{
+    width: 100%;
+  }
+
+  .latest-img {
+    height:12vh;
+    width: 12vh;
+    object-fit: cover;
+  }
+
+  .latest-news {
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+  }
+
   .cards {
     display: flex;
     flex-direction: column;
@@ -1032,6 +1089,16 @@ img.corp-logo2 {
 
   .hl-time {
     display: none;
+  }
+
+  .categories {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+  }
+
+  .hf-most-popular {
+    width: 100%;
   }
 
   .corp-data {
