@@ -305,6 +305,97 @@ img.corp-logo2 {
   background-size: cover;
 }
 
+.latest-section {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+}
+
+.latest-container {
+  display: grid;
+  width: 100%;
+  grid-template-areas: 
+    "first second third fourth"
+    "fifth sixth seventh eighth"
+  ;
+}
+
+.latest-news{
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  margin: 10px;
+  width: 20vw;
+  height: 40vh;
+}
+
+.latest-details{
+  margin-top: 5px;
+  display: flex;
+  align-items: baseline;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #999;
+}
+
+.latest-img {
+  width: 100%;
+  height: 60%;
+}
+
+.latest-caption {
+  width: 100%;
+}
+
+.latest-link {
+  font-family: Arial, Helvetica;
+  font-weight: bold;
+  text-decoration: none;
+  color:  black;
+}
+
+.latest-link:hover {
+  text-decoration: underline;
+  color: #f42;
+}
+
+.latest-author {
+  text-decoration: none;
+  color: #999;
+}
+
+.latest-author:hover {
+  color: #555;
+}
+
+.l-first {
+  grid-area: first;
+}
+
+.l-second {
+  grid-area: second;
+}
+
+.l-third {
+  grid-area: third;
+}
+.l-fourth {
+  grid-area: fourth;
+}
+
+.l-fifth {
+  grid-area: fifth;
+}
+.l-sixth {
+  grid-area: sixth;
+}
+.l-seventh {
+  grid-area: seventh;
+}
+.l-eighth {
+  grid-area: eighth;
+}
+
 .funding {
   display: flex;
   flex-direction: column;
