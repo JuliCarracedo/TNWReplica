@@ -597,8 +597,9 @@ img.corp-logo2 {
   flex-direction: column;
   justify-content: flex-end;
   padding-left: 10px;
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.95) 80%), url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/1280px-GameStop_Globen-e1611550531323-368x276.jpg");
-  background-size: cover;
+  background-size: cover !important;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.950) 80%), url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/1280px-GameStop_Globen-e1611550531323-368x276.jpg");
+
 }
 
 .apps-most-popular {
@@ -906,6 +907,16 @@ img.corp-logo2 {
       "nineth .";
     width: 90%;
   }
+
+
+
+  .deals-container {
+    grid-template-areas: 
+    "deal1 deal2 deal3"
+    "deal4 deal5 deal6"
+    "deal7 deal8 .";
+  }
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -1095,6 +1106,44 @@ img.corp-logo2 {
     display: flex;
     flex-direction: column;
     width: 95%;
+  }
+
+
+  .latest-deals {
+    width: 95%;
+  }
+
+  .deals-container {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin-bottom: 5vh;
+  }
+
+  .deals-figure {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .deal-caption {
+    width: 100%;
+    margin-left: 5px;
+  }
+
+  .deal-img {
+    height:12vh;
+    width: 12vh;
+    object-fit: cover;
+  }
+
+  .deal-card1, .deal-card2, .deal-card3, 
+  .deal-card4, .deal-card5, .deal-card6,
+  .deal-card7, .deal-card8 {
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    margin: 10px 0 10px 0;
   }
 
   .corp-data {
