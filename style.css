@@ -314,13 +314,12 @@ img.corp-logo2 {
 .latest-container {
   display: grid;
   width: 100%;
-  grid-template-areas: 
+  grid-template-areas:
     "first second third fourth"
-    "fifth sixth seventh eighth"
-  ;
+    "fifth sixth seventh eighth";
 }
 
-.latest-news{
+.latest-news {
   display: flex;
   flex-direction: column;
   align-items: baseline;
@@ -329,7 +328,7 @@ img.corp-logo2 {
   height: 40vh;
 }
 
-.latest-details{
+.latest-details {
   margin-top: 5px;
   display: flex;
   align-items: baseline;
@@ -348,10 +347,10 @@ img.corp-logo2 {
 }
 
 .latest-link {
-  font-family: Arial, Helvetica;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   text-decoration: none;
-  color:  black;
+  color: black;
 }
 
 .latest-link:hover {
@@ -379,6 +378,7 @@ img.corp-logo2 {
 .l-third {
   grid-area: third;
 }
+
 .l-fourth {
   grid-area: fourth;
 }
@@ -386,12 +386,15 @@ img.corp-logo2 {
 .l-fifth {
   grid-area: fifth;
 }
+
 .l-sixth {
   grid-area: sixth;
 }
+
 .l-seventh {
   grid-area: seventh;
 }
+
 .l-eighth {
   grid-area: eighth;
 }
@@ -518,12 +521,12 @@ img.corp-logo2 {
 .cat-details {
   display: flex;
   font-family: 'Cairo', Helvetica, sans-serif;
-  color: #777;;
+  color: #777;
   font-size: 14px;
 }
 
 .cat-author {
-  color:#777;
+  color: #777;
   text-decoration: none;
 }
 
@@ -535,16 +538,15 @@ img.corp-logo2 {
   width: 103%;
   background-color: rgba(245, 188, 170, 0.404);
   display: grid;
-  grid-template-areas: 
+  grid-template-areas:
     "latest img"
-    "text img"
-  ;
+    "text img";
 }
 
 .categories-pre-title {
   margin-left: 5%;
   font-family: 'Cairo', Helvetica, sans-serif;
-  color:#f42;
+  color: #f42;
   font-size: 14px;
   grid-area: latest;
 }
@@ -562,7 +564,7 @@ img.corp-logo2 {
   top: -50%;
 }
 
-.deals-figure{
+.deals-figure {
   margin: 10px;
 }
 
@@ -573,12 +575,12 @@ img.corp-logo2 {
   height: 100%;
 }
 
-.categories-list{
+.categories-list {
   color: #f42;
   padding-left: 5%;
 }
 
-.list-link{
+.list-link {
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
   color: #777;
@@ -595,8 +597,8 @@ img.corp-logo2 {
   flex-direction: column;
   justify-content: flex-end;
   padding-left: 10px;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.95) 80%), url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/1280px-GameStop_Globen-e1611550531323-368x276.jpg");
   background-size: cover;
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.950) 80%), url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/1280px-GameStop_Globen-e1611550531323-368x276.jpg");
 }
 
 .apps-most-popular {
@@ -607,7 +609,7 @@ img.corp-logo2 {
   justify-content: flex-end;
   padding-left: 10px;
   background-size: cover;
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.950) 80%), url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Snag_3c8ecdc-368x276.png");
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.95) 80%), url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Snag_3c8ecdc-368x276.png");
 }
 
 .apps {
@@ -622,7 +624,7 @@ img.corp-logo2 {
   justify-content: flex-end;
   padding-left: 10px;
   background-size: cover;
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.950) 80%), url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2015/03/MacBook-USB-C-Feat-Img-730x365.jpg");
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.95) 80%), url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2015/03/MacBook-USB-C-Feat-Img-730x365.jpg");
 }
 
 .gear {
@@ -641,7 +643,7 @@ img.corp-logo2 {
   justify-content: flex-end;
   padding-left: 10px;
   background-size: cover;
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.950) 80%), url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2016/06/vintage-robot-368x276.jpg");
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.95) 80%), url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2016/06/vintage-robot-368x276.jpg");
 }
 
 .creative {
@@ -656,7 +658,7 @@ img.corp-logo2 {
   justify-content: flex-end;
   padding-left: 10px;
   background-size: cover;
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.950) 80%), url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/Untitled-design-13-368x276.png");
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.95) 80%), url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/Untitled-design-13-368x276.png");
 }
 
 .podium {
@@ -671,7 +673,7 @@ img.corp-logo2 {
   justify-content: flex-end;
   padding-left: 10px;
   background-size: cover;
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.950) 80%), url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/open-source-code-gq-368x276.png");
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.95) 80%), url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/open-source-code-gq-368x276.png");
 }
 
 .insights {
@@ -686,7 +688,7 @@ img.corp-logo2 {
   justify-content: flex-end;
   padding-left: 10px;
   background-size: cover;
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.950) 80%), url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/zoom-fundraising-gq-368x276.png");
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.95) 80%), url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/zoom-fundraising-gq-368x276.png");
 }
 
 .launch {
@@ -701,7 +703,7 @@ img.corp-logo2 {
   justify-content: flex-end;
   padding-left: 10px;
   background-size: cover;
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.950) 80%), url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/toyota-suv-new-ev-car-future-electric-japan-368x276.jpg");
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.95) 80%), url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/toyota-suv-new-ev-car-future-electric-japan-368x276.jpg");
 }
 
 .distract {
@@ -716,7 +718,7 @@ img.corp-logo2 {
   justify-content: flex-end;
   padding-left: 10px;
   background-size: cover;
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.950) 80%), url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/amplified-368x276.jpg");
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.95) 80%), url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/amplified-368x276.jpg");
 }
 
 .latest-deals {
@@ -749,9 +751,9 @@ img.corp-logo2 {
 
 .deals-container {
   display: grid;
-  grid-template-areas: 
-  "deal1 deal2 deal3 deal4"
-  "deal5 deal6 deal7 deal8";
+  grid-template-areas:
+    "deal1 deal2 deal3 deal4"
+    "deal5 deal6 deal7 deal8";
 }
 
 .deal-img {
@@ -865,12 +867,11 @@ img.corp-logo2 {
     background-size: cover;
   }
 
-  .latest-container{
-    grid-template-areas: 
-    "first second third"
-    "fourth fifth sixth"
-    "seventh eighth ."
-  ;
+  .latest-container {
+    grid-template-areas:
+      "first second third"
+      "fourth fifth sixth"
+      "seventh eighth .";
     width: 80%;
     gap: 20px;
   }
@@ -898,14 +899,13 @@ img.corp-logo2 {
 
   .categories {
     grid-template-areas:
-    "first second"
-    "third fourth"
-    "fifth sixth"
-    "seventh eighth"
-    "nineth .";
+      "first second"
+      "third fourth"
+      "fifth sixth"
+      "seventh eighth"
+      "nineth .";
     width: 90%;
   }
-
 }
 
 @media only screen and (max-width: 768px) {
@@ -1027,12 +1027,12 @@ img.corp-logo2 {
     margin-left: 5px;
   }
 
-  .latest-link{
+  .latest-link {
     width: 100%;
   }
 
   .latest-img {
-    height:12vh;
+    height: 12vh;
     width: 12vh;
     object-fit: cover;
   }
@@ -1095,10 +1095,6 @@ img.corp-logo2 {
     display: flex;
     flex-direction: column;
     width: 95%;
-  }
-
-  .hf-most-popular {
-    width: 100%;
   }
 
   .corp-data {
